@@ -7,6 +7,16 @@
             "build": "npx azle terrax",
             "wasm": ".azle/terrax/terrax.wasm",
             "gzip": true
+        },
+        "frontend": {
+            "dependencies": [
+                "terrax"
+            ],
+            "source": [
+                "src/frontend/dist"
+            ],
+            "type": "assets",
+            "workspace": "frontend"
         }
     }
 }
