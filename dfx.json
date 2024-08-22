@@ -1,0 +1,12 @@
+{
+    "canisters": {
+        "terrax": {
+            "type": "custom",
+            "main": "src/terrax/index.ts",
+            "candid": "src/terrax/index.did",
+            "build": "npx azle terrax",
+            "wasm": ".azle/terrax/terrax.wasm",
+            "gzip": true
+        }
+    }
+}
