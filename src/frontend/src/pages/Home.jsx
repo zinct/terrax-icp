@@ -1,8 +1,5 @@
 import { useEffect, useState } from "react";
 
-import appService from "../services/appService";
-import { useAuth } from "../hooks/useAuth";
-
 export default function Home() {
   const [show, setShow] = useState(false);
 

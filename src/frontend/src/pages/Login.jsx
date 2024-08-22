@@ -1,5 +1,3 @@
-import { useAuth } from "../hooks/useAuth";
-import { useNavigate } from "react-router-dom";
 import { useState } from "react";
 
 function Login() {
