@@ -17,16 +17,7 @@ function App() {
   return (
     <Router>
       <Routes>
-        {/* <Route path="/" element={<Layout />}> */}
-        <Route
-          index
-          element={
-            <ProtectedRoute>
-              <Home />
-            </ProtectedRoute>
-          }
-        />
-        {/* </Route> */}
+        <Route path="/" element={<Home />} />
         <Route path="login" element={<Login />} />
         <Route path="catalogue" element={<Catalogue />} />
         <Route path="listing" element={<Listing />} />
